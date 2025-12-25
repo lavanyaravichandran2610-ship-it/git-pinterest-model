@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+.collage {
+column-count: 3;
+column-gap: 25px;
+}
+.item {
+break-inside: avoid;
+margin-bottom: 25px;
+}
+.collage img,.collage video {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 10px;
+}
+body {
+background-color: black;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;   
+background-color: #282828;
+}
+ul li {
+padding: 10px 20px;
+}
+ul li a {
+display: flex;        
+align-items: center;
+justify-content: center;
+padding: 0;            
+}
+ul li a img {
+width: 70px;           
+height: 70px;
+}
+ul li a:hover {
+background-color: grey;
+border: 2px solid grey;
+border-radius: 10px;
+padding: 10px;         
+margin: 5px;
+}
+.icons {
+width: 100%;
+height: 15%;
+background-color: #282828;
+position: fixed;
+bottom: 0;
+border-radius: 10px;
+}
+h2{
+color:white;
+font-size:30px;
+}
+input {
+font-size: 30px;
+color: white;         
+width: 90%;
+padding: 6px;
+background-color: #404040;
+border: 15px solid #404040;
+border-radius: 10px;
+margin: 5px;
+}
+.icon{
+background-color:#404040;
+border:2px solid #404040;
+border-radius:10px;
+color:white;
+padding:8px;
+margin:5px;
+}
+</style>
+</head>
+<body>
+<div style="display:flex;gap:250px;">
+<img src="prfle.png">
+<h2>Pins</h2>
+<h2>Boards</h2>
+<h2>Collages</h2>
+</div>
+<div class="icons">
+<nav>
+<ul>
+<li><a href="C:\Users\lavan\OneDrive\Desktop\experiment 20\index.html"><img src="home.png"></a></li>
+<li><a href="C:\Users\lavan\OneDrive\Desktop\experiment 20\search.html"><img src="search.png"></a></li>
+<li><a href="C:\Users\lavan\OneDrive\Desktop\experiment 20\add.html"><img src="plus.png"></a></li>
+<li><a href="C:\Users\lavan\OneDrive\Desktop\experiment 20\message.html"><img src="msg.png"></a></li>
+<li><a href="C:\Users\lavan\OneDrive\Desktop\experiment 20\profile.html"><img src="profile.png"></a></li>
+</ul>
+</nav>
+</div>
+<div style="display:flex;gap:10px;">
+<input type="text" placeholder="Search your Pins">
+<img src="plus.png" width="70" height="70">
+</div>
+<div style="display:flex;gap:10px;">
+<div class="icon">...</div>
+<div class="icon">Favourites</div>
+<div class="icon">Created by you</div>
+</div>
+<div style="color:white;"><h1>Your saved pins</h1></div>
+<div class="collage">
+<div class="item"><img src="image2.jpeg" alt="sample image"></div>
+<div class="item"><video controls autoplay muted><source src="video1.mp4" type="video/mp4"></video></div>
+<div class="item"><img src="image4.jpeg" alt="sample image"></div>
+<div class="item"><img src="image5.jpeg" alt="sample image"></div>
+<div class="item"><video controls autoplay muted><source src="video4.mp4" type="video/mp4"></video></div>
+<div class="item"><img src="image7.jpeg" alt="sample image"></div>
+<div class="item"><img src="image3.jpeg" alt="sample image"></div>
+<div class="item"><video controls autoplay muted><source src="video3.mp4" type="video/mp4"></video></div>
+<div class="item"><img src="image6.jpeg" alt="sample image"></div>
+<div class="item"><img src="image1.jpeg" alt="sample image"></div>
+<div class="item"><video controls autoplay muted><source src="video2.mp4" type="video/mp4"></video></div>
+</div>
+</body>
+</html>
